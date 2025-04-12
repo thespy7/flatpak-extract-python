@@ -1,0 +1,29 @@
+name: flatpak-extract
+base: core24
+version: '1.0.0'
+summary: S
+description: |
+  D
+
+grade: stable
+confinement: strict
+
+parts:
+
+  flatpak-extract:
+    plugin: dump
+    source: ./local
+    source-type: local
+    organize:
+      local/flatpak-extract: flatpak-extract
+    stage-packages:
+      - ostree
+
+apps:
+  flatpak-extract:
+    command: flatpak-extract/flatpak-extract.py
+    plugs:
+      - home
+      - removable-media
+      
+
