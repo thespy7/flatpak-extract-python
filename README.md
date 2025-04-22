@@ -1,4 +1,6 @@
 # flatpak-extract
+[![Get it from the Snap Store](https://snapcraft.io/en/dark/install.svg)](https://snapcraft.io/flatpak-extract)
+
 a CLI app for extracting .flatpak files
 ```
 usage: flatpak-extract [-h] [--outdir OUTDIR] [--tmpdir TMPDIR] filename
