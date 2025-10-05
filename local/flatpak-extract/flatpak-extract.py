@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 """
+GitHub Fork from user faveoled - https://github.com/faveoled
+
 flatpak-extract.py – Extract old and modern Flatpak bundles safely
 
 Supports:
